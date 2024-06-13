@@ -18,10 +18,10 @@ html {
 }
 
 body {
-  background: radial-gradient(
+  background-image: radial-gradient(
       circle at top,
-      rgba(241, 210, 70, 0.98),
-      rgba(250, 176, 103, 0.87)
+      rgba(166, 156, 113, 0.98),
+      rgba(79, 52, 24, 0.87)
     ),
     url('/workspaces/Tic-tac-toe-with-react/public/bg-dark.png');
   background-repeat: repeat;
@@ -37,14 +37,14 @@ header img {
   width: 8rem;
   object-fit: contain;
   margin: 3rem auto 1rem auto;
-  filter: drop-shadow(0 0 8px rgba(0, 0, 0, 0.4));
+  filter: drop-shadow(0 0 8px rgba(36, 35, 20, 0.4));
 }
 
 h1 {
   font-family: 'Caprasimo', cursive;
   font-size: 3rem;
   margin: 0 auto 3rem auto;
-  color: #3f3b00;
+  color: #2c2901;
 }
 
 #game-container {
@@ -75,7 +75,7 @@ h1 {
 }
 
 #players.highlight-player li.active {
-  border-color: #f6e35a;
+  border-color: #736e46;
   animation: pulse 2s infinite ease-in-out;
 }
 
@@ -88,8 +88,9 @@ h1 {
   width: 3rem;
   border: none;
   background: none;
-  color: #c3ba78;
-  font-size: 0.9rem;
+  color: #db9121;
+  font-size: 1rem;
+  font-weight: 600;
   cursor: pointer;
   transition: color 0.2s;
   padding: 0.5rem 0.25rem 0.25rem 0.25rem;
@@ -127,7 +128,7 @@ h1 {
   border: none;
   padding: 0.5rem;
   animation: pulse-text 2s infinite;
-  background-color: #46432f;
+  background-color: #3a3721;
   text-align: center;
   text-transform: uppercase;
 }
